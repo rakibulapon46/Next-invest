@@ -1,6 +1,6 @@
 const logIn = document.querySelector(".btn1");
 logIn.addEventListener("click", () => {
-    window.open("./Login.html");
+    window.open("./login.html");
 });
 
 const reGi = document.querySelector(".btn2");
