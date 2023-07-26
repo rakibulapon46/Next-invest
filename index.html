@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/59531f5a28.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-white mb-2 sticky-top">
+    <nav class="navbar navbar-expand-lg bg-body mb-2 fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="./img/logo.jpg" alt="Logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,15 +44,15 @@
                 <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="#">About Us</a>
                 </li>
-                <a href="./Login.html"><button class="btn1" type="submit">Login</button></a>
-                <a href="./registeration.html"><button class="btn2" type="submit">Register</button></a>
+                <button class="btn1" type="submit">Login</button>
+                <button class="btn2" type="submit">Register</button>
             </ul>
           </div>
         </div>
       </nav>
 
 
-      <section class="section1">
+      <section class="section1" id="s1">
         <div class="container">
             <div class="curcle">
                 <img src="img/Mask.jpg" alt="">
@@ -285,7 +285,7 @@
             </div>
             <div class="foot-last">
               <div class="top-logo">
-                <a href="">
+                <a href="#s1">
                 <img src="img/Top.jpg" alt="">
               </a>
               </div>
@@ -301,6 +301,8 @@
         </div>
       </footer>
 
+
+      <script src="index.js"></script>
 
 </body>
 </html>
